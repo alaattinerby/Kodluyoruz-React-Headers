@@ -7,6 +7,7 @@ function Header({navLinks}){
 
     return( <>
         <header>
+          <div className="logo">ERBAY</div>
           <nav>
             {resultHTML}
           </nav>
