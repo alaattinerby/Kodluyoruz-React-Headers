@@ -6,11 +6,22 @@
 header{
   padding: 20px;
   box-shadow: rgb(0 0 0 / 20%) 0px 0px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo{
+  font-weight: bold;
+  font-size: 36px;
+  font-family: Helvetica;
+  letter-spacing: 2px;
+  color: rgba(0,0,0,0.6);
 }
 nav a{
   text-decoration: none;
   padding: 10px;
   color: rgba(0,0,0,0.8);
+  font-size: 22px;
 }
 
 nav a:hover{
