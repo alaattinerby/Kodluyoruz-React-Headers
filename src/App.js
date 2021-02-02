@@ -1,6 +1,5 @@
-import { Component } from 'react';
 import './App.css';
-import index, { Header } from './Components/index';
+import { Header, UserCard, InputCard }  from './Components';
 
 const headerLinks = [
   {
@@ -25,14 +24,19 @@ const headerLinks = [
   }
 ]
 
-class App extends Component{
-  render(){
+
+function App(){
     return (
+      
       <>
-        <Header navLinks ={headerLinks} />
+        <Header navLinks = {headerLinks} />
+        <main>
+          <InputCard />
+          <UserCard />          
+        </main>
       </>
+      
     );
-  }
 }
 
 export default App;
