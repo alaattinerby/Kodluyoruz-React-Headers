@@ -1,22 +1,24 @@
-function InputCard() {
-var inputData = document.getElementById("inputData");
-   
+function InputCard(props) {
+
+    var inputArray = [];
+
     const inputControl = (e) => {
-        var inputArray = [];
+        inputArray = [];
         inputArray.push(e.target.value);
+        console.log(inputArray);
     }
 
     return(<>
         <section> 
             <div className="inputCard">
                 <input 
-                    id="iputData" 
                     className="inputData" 
                     onKeyUp={inputControl} 
                     placeholder="Kart Başlığı"
                 />
             </div>
         </section>
+        
     </>
     )
 }
