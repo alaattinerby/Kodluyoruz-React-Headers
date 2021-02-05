@@ -1,2 +1,1 @@
-# Kodluyoruz-React-Headers
-Dynamic Menu Created
+`headerLinks` dizisi, `<Header />` componenti oluşturulup döngü ile basıldı.
