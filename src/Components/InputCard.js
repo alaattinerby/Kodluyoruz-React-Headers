@@ -1,24 +1,16 @@
 function InputCard(props) {
-
-    var inputArray = [];
-
-    const inputControl = (e) => {
-        inputArray = [];
-        inputArray.push(e.target.value);
-        console.log(inputArray);
-    }
-
-    return(<>
+    
+    return(
+    <>
         <section> 
             <div className="inputCard">
                 <input 
                     className="inputData" 
-                    onKeyUp={inputControl} 
                     placeholder="Kart Başlığı"
+                    onChange={(e) => props.onChange(e.target.value)}
                 />
             </div>
-        </section>
-        
+        </section>      
     </>
     )
 }

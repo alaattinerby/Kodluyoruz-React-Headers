@@ -31,7 +31,6 @@ function App(){
       <>
         <Header navLinks = {headerLinks} />
         <main>
-          <InputCard />
           <UserCard />          
         </main>
       </>
