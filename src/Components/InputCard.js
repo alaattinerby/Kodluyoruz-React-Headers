@@ -7,7 +7,7 @@ function InputCard(props) {
                 <input 
                     className="inputData" 
                     placeholder="Kart Başlığı"
-                    onChange={(e) => props.onChange(e.target.value)}
+                    onChange={(e) => props.onChange(e.target.value)} 
                 />
             </div>
         </section>      
