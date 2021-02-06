@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import InputCard from "./InputCard";
+import Avatar from './../avatar.png'
 
 function UserCard() {
     
@@ -16,8 +17,8 @@ function UserCard() {
                         Suspendisse potenti. Aliquam erat volutpat. Aliquam hendrerit molestie feugiat. Praesent sed purus dui. 
                         Nam consequat lacus eget laoreet tempus.
                     </p>
-                    <img src=""></img>
-                    <h1>Başlık Gelecek : {nameState}</h1>  
+                    <img src={Avatar}></img>
+                    <h2>{nameState}</h2>  
                 </div>
             </section>
         </>

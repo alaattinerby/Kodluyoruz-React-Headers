@@ -49,7 +49,7 @@ nav a:hover{
 .userCard{
   border: 1px solid gray;
   margin: auto;
-  width: 250px;
+  width: 350px;
   text-align: center;
   padding:20px 15px;
   background-color: #141E27;
@@ -59,9 +59,20 @@ nav a:hover{
 .userCard p{
   color: #9A9FA5;
   line-height: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .userCard span{
   font-size: 70px;
   font-weight: bold;
   color: #32CDA0;
+}
+.userCard img{
+  width: 100px;
+  margin-top: 30px;
+}
+.userCard h2{
+  margin-top: 10px;
+  font-size: 18px;
+  color: #32CDA0;
+  letter-spacing:1.5px;
 }

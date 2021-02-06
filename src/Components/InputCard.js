@@ -6,7 +6,7 @@ function InputCard(props) {
             <div className="inputCard">
                 <input 
                     className="inputData" 
-                    placeholder="Kart Başlığı"
+                    placeholder="Yorum Yapan Kullanıcı"
                     onChange={(e) => props.onChange(e.target.value)} 
                 />
             </div>
