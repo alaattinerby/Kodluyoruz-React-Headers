@@ -43,3 +43,25 @@ nav a:hover{
 .inputData:focus{
   box-shadow:1px 1px 10px #dfdfdfcc;
 }
+.sectionUserCard{
+  display: flex;
+}
+.userCard{
+  border: 1px solid gray;
+  margin: auto;
+  width: 250px;
+  text-align: center;
+  padding:20px 15px;
+  background-color: #141E27;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.userCard p{
+  color: #9A9FA5;
+  line-height: 22px;
+}
+.userCard span{
+  font-size: 70px;
+  font-weight: bold;
+  color: #32CDA0;
+}
